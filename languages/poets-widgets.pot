@@ -1,0 +1,116 @@
+# Copyright (C) 2022 Christian Wach
+# This file is distributed under the same license as the Football Poets Widgets plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Football Poets Widgets 0.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/poets-widgets\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-11T21:25:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.0\n"
+"X-Domain: poets-widgets\n"
+
+#. Plugin Name of the plugin
+msgid "Football Poets Widgets"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://footballpoets.org"
+msgstr ""
+
+#. Description of the plugin
+msgid "Provides a set of custom widgets for the Football Poets website."
+msgstr ""
+
+#. Author of the plugin
+msgid "Christian Wach"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://haystack.co.uk"
+msgstr ""
+
+msgid "Use this widget to show the \"Butler’s Bench\" widget."
+msgstr ""
+
+msgid "Butler’s Bench"
+msgstr ""
+
+msgid "Poems &amp; Profile"
+msgstr ""
+
+msgid "Blog Posts"
+msgstr ""
+
+msgid "Butler's Bench"
+msgstr ""
+
+msgid "Title:"
+msgstr ""
+
+msgid "Use this widget to show the \"Clik Here\" widget."
+msgstr ""
+
+msgid "Clik Here"
+msgstr ""
+
+msgid "Use this widget to show the \"Crispin’s Corner\" widget."
+msgstr ""
+
+msgid "Crispin’s Corner"
+msgstr ""
+
+msgid "Your Nostalgia Poems"
+msgstr ""
+
+msgid "Your Euros Poems"
+msgstr ""
+
+msgid "Your World Cup Poems"
+msgstr ""
+
+msgid "Your World Cup Haiku"
+msgstr ""
+
+msgid "Crispin’s Poems &amp; Profile"
+msgstr ""
+
+msgid "Crispin's Corner"
+msgstr ""
+
+msgid "Use this widget to show the \"In Memoriam\" widget."
+msgstr ""
+
+msgid "In Memoriam"
+msgstr ""
+
+msgid "Your Hillsborough Poems"
+msgstr ""
+
+msgid "Your Munich Poems"
+msgstr ""
+
+msgid "Your RIP Poems"
+msgstr ""
+
+msgid "Use this widget to show the \"Kick It Out/Christmas Truce\" widget."
+msgstr ""
+
+msgid "Kick It Out/Christmas Truce"
+msgstr ""
+
+msgid "Your Kick It Out Poems"
+msgstr ""
+
+msgid "Your Christmas Truce Poems"
+msgstr ""
+
+msgid "Your Football At Christmas Poems"
+msgstr ""
+
+msgid "Kick It Out"
+msgstr ""
