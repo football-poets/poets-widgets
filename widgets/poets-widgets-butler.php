@@ -34,7 +34,7 @@ class Poets_Butler_Widget extends WP_Widget {
 		// Define args.
 		$args = [
 			'description' => __( 'Use this widget to show the "Butler’s Bench" widget.', 'poets-widgets' ),
-			'classname' => 'widget widget_fp_butler_widget clearfix',
+			'classname'   => 'widget widget_fp_butler_widget clearfix',
 		];
 
 		// Init parent.
@@ -89,7 +89,7 @@ class Poets_Butler_Widget extends WP_Widget {
 			// Show after.
 			echo $args['after_widget'];
 
-		// End sanity check.
+			// End sanity check.
 		endif;
 
 	}

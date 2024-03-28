@@ -25,7 +25,7 @@ class In_Memoriam_Widget extends WP_Widget {
 		// Define args.
 		$args = [
 			'description' => __( 'Use this widget to show the "In Memoriam" widget.', 'poets-widgets' ),
-			'classname' => 'widget widget_fp_in_memoriam_widget clearfix',
+			'classname'   => 'widget widget_fp_in_memoriam_widget clearfix',
 		];
 
 		// Init parent.

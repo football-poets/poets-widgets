@@ -25,7 +25,7 @@ class Kick_It_Out_Widget extends WP_Widget {
 		// Define args.
 		$args = [
 			'description' => __( 'Use this widget to show the "Kick It Out/Christmas Truce" widget.', 'poets-widgets' ),
-			'classname' => 'widget widget_fp_kick_it_widget clearfix',
+			'classname'   => 'widget widget_fp_kick_it_widget clearfix',
 		];
 
 		// Init parent.

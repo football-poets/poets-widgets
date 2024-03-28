@@ -34,7 +34,7 @@ class Poets_Crispin_Widget extends WP_Widget {
 		// Define args.
 		$args = [
 			'description' => __( 'Use this widget to show the "Crispin’s Corner" widget.', 'poets-widgets' ),
-			'classname' => 'widget widget_fp_crispin_widget clearfix',
+			'classname'   => 'widget widget_fp_crispin_widget clearfix',
 		];
 
 		// Init parent.
@@ -92,7 +92,7 @@ class Poets_Crispin_Widget extends WP_Widget {
 			// Show after.
 			echo $args['after_widget'];
 
-		// End sanity check.
+			// End sanity check.
 		endif;
 
 	}

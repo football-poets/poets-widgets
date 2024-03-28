@@ -1,11 +1,13 @@
 <?php
 /**
+ * Football Poets Widgets
+ *
  * Plugin Name: Football Poets Widgets
- * Plugin URI: http://footballpoets.org
  * Description: Provides a set of custom widgets for the Football Poets website.
- * Author: Christian Wach
- * Version: 0.2.0a
- * Author URI: https://haystack.co.uk
+ * Plugin URI:  https://github.com/football-poets/poets-widgets
+ * Version:     0.2.0a
+ * Author:      Christian Wach
+ * Author URI:  https://haystack.co.uk
  * Text Domain: poets-widgets
  * Domain Path: /languages
  *
