@@ -1,116 +1,156 @@
-# Copyright (C) 2022 Christian Wach
+# Copyright (C) 2024 Christian Wach
 # This file is distributed under the same license as the Football Poets Widgets plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Football Poets Widgets 0.1.1\n"
+"Project-Id-Version: Football Poets Widgets 0.1.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/poets-widgets\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-11-11T21:25:41+00:00\n"
+"POT-Creation-Date: 2024-03-28T18:01:09+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.7.0\n"
+"X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: poets-widgets\n"
 
 #. Plugin Name of the plugin
+#: poets-widgets.php
 msgid "Football Poets Widgets"
 msgstr ""
 
 #. Plugin URI of the plugin
+#: poets-widgets.php
 msgid "http://footballpoets.org"
 msgstr ""
 
 #. Description of the plugin
+#: poets-widgets.php
 msgid "Provides a set of custom widgets for the Football Poets website."
 msgstr ""
 
 #. Author of the plugin
+#: poets-widgets.php
 msgid "Christian Wach"
 msgstr ""
 
 #. Author URI of the plugin
+#: poets-widgets.php
 msgid "https://haystack.co.uk"
 msgstr ""
 
+#: widgets/poets-widgets-butler.php:36
 msgid "Use this widget to show the \"Butler’s Bench\" widget."
 msgstr ""
 
+#: widgets/poets-widgets-butler.php:43
 msgid "Butler’s Bench"
 msgstr ""
 
+#: widgets/poets-widgets-butler.php:82
+#: widgets/poets-widgets-clik.php:82
 msgid "Poems &amp; Profile"
 msgstr ""
 
+#: widgets/poets-widgets-butler.php:83
+#: widgets/poets-widgets-clik.php:83
 msgid "Blog Posts"
 msgstr ""
 
+#: widgets/poets-widgets-butler.php:112
 msgid "Butler's Bench"
 msgstr ""
 
+#: widgets/poets-widgets-butler.php:118
+#: widgets/poets-widgets-clik.php:118
+#: widgets/poets-widgets-crispin.php:121
+#: widgets/poets-widgets-in-memoriam.php:101
+#: widgets/poets-widgets-kick-it.php:101
 msgid "Title:"
 msgstr ""
 
+#: widgets/poets-widgets-clik.php:36
 msgid "Use this widget to show the \"Clik Here\" widget."
 msgstr ""
 
+#: widgets/poets-widgets-clik.php:43
+#: widgets/poets-widgets-clik.php:112
 msgid "Clik Here"
 msgstr ""
 
+#: widgets/poets-widgets-crispin.php:36
 msgid "Use this widget to show the \"Crispin’s Corner\" widget."
 msgstr ""
 
+#: widgets/poets-widgets-crispin.php:43
 msgid "Crispin’s Corner"
 msgstr ""
 
+#: widgets/poets-widgets-crispin.php:82
 msgid "Your Nostalgia Poems"
 msgstr ""
 
+#: widgets/poets-widgets-crispin.php:83
 msgid "Your Euros Poems"
 msgstr ""
 
+#: widgets/poets-widgets-crispin.php:84
 msgid "Your World Cup Poems"
 msgstr ""
 
+#: widgets/poets-widgets-crispin.php:85
 msgid "Your World Cup Haiku"
 msgstr ""
 
+#: widgets/poets-widgets-crispin.php:86
 msgid "Crispin’s Poems &amp; Profile"
 msgstr ""
 
+#: widgets/poets-widgets-crispin.php:115
 msgid "Crispin's Corner"
 msgstr ""
 
+#: widgets/poets-widgets-in-memoriam.php:27
 msgid "Use this widget to show the \"In Memoriam\" widget."
 msgstr ""
 
+#: widgets/poets-widgets-in-memoriam.php:34
+#: widgets/poets-widgets-in-memoriam.php:95
 msgid "In Memoriam"
 msgstr ""
 
+#: widgets/poets-widgets-in-memoriam.php:67
 msgid "Your Hillsborough Poems"
 msgstr ""
 
+#: widgets/poets-widgets-in-memoriam.php:68
 msgid "Your Munich Poems"
 msgstr ""
 
+#: widgets/poets-widgets-in-memoriam.php:69
 msgid "Your RIP Poems"
 msgstr ""
 
+#: widgets/poets-widgets-kick-it.php:27
 msgid "Use this widget to show the \"Kick It Out/Christmas Truce\" widget."
 msgstr ""
 
+#: widgets/poets-widgets-kick-it.php:34
 msgid "Kick It Out/Christmas Truce"
 msgstr ""
 
+#: widgets/poets-widgets-kick-it.php:67
 msgid "Your Kick It Out Poems"
 msgstr ""
 
+#: widgets/poets-widgets-kick-it.php:68
 msgid "Your Christmas Truce Poems"
 msgstr ""
 
+#: widgets/poets-widgets-kick-it.php:69
 msgid "Your Football At Christmas Poems"
 msgstr ""
 
+#: widgets/poets-widgets-kick-it.php:95
 msgid "Kick It Out"
 msgstr ""
