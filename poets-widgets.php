@@ -4,7 +4,7 @@
  * Plugin URI: http://footballpoets.org
  * Description: Provides a set of custom widgets for the Football Poets website.
  * Author: Christian Wach
- * Version: 0.1.2
+ * Version: 0.2.0a
  * Author URI: https://haystack.co.uk
  * Text Domain: poets-widgets
  * Domain Path: /languages
@@ -16,7 +16,7 @@
 defined( 'ABSPATH' ) || exit;
 
 // Set our version here.
-define( 'POETS_WIDGETS_VERSION', '0.1.2' );
+define( 'POETS_WIDGETS_VERSION', '0.2.0a' );
 
 // Store reference to this file.
 if ( ! defined( 'POETS_WIDGETS_FILE' ) ) {
