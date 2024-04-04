@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Football Poets Widgets plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Football Poets Widgets 0.1.2\n"
+"Project-Id-Version: Football Poets Widgets 0.2.0a\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/poets-widgets\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-03-28T18:01:09+00:00\n"
+"POT-Creation-Date: 2024-04-04T11:57:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: poets-widgets\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. Plugin URI of the plugin
 #: poets-widgets.php
-msgid "http://footballpoets.org"
+msgid "https://github.com/football-poets/poets-widgets"
 msgstr ""
 
 #. Description of the plugin
@@ -47,25 +47,25 @@ msgstr ""
 msgid "Butler’s Bench"
 msgstr ""
 
-#: widgets/poets-widgets-butler.php:82
-#: widgets/poets-widgets-clik.php:82
+#: widgets/poets-widgets-butler.php:84
+#: widgets/poets-widgets-clik.php:84
 msgid "Poems &amp; Profile"
 msgstr ""
 
-#: widgets/poets-widgets-butler.php:83
-#: widgets/poets-widgets-clik.php:83
+#: widgets/poets-widgets-butler.php:85
+#: widgets/poets-widgets-clik.php:85
 msgid "Blog Posts"
 msgstr ""
 
-#: widgets/poets-widgets-butler.php:112
+#: widgets/poets-widgets-butler.php:115
 msgid "Butler's Bench"
 msgstr ""
 
-#: widgets/poets-widgets-butler.php:118
-#: widgets/poets-widgets-clik.php:118
-#: widgets/poets-widgets-crispin.php:121
-#: widgets/poets-widgets-in-memoriam.php:101
-#: widgets/poets-widgets-kick-it.php:101
+#: widgets/poets-widgets-butler.php:121
+#: widgets/poets-widgets-clik.php:121
+#: widgets/poets-widgets-crispin.php:124
+#: widgets/poets-widgets-in-memoriam.php:104
+#: widgets/poets-widgets-kick-it.php:104
 msgid "Title:"
 msgstr ""
 
@@ -74,7 +74,7 @@ msgid "Use this widget to show the \"Clik Here\" widget."
 msgstr ""
 
 #: widgets/poets-widgets-clik.php:43
-#: widgets/poets-widgets-clik.php:112
+#: widgets/poets-widgets-clik.php:115
 msgid "Clik Here"
 msgstr ""
 
@@ -86,27 +86,27 @@ msgstr ""
 msgid "Crispin’s Corner"
 msgstr ""
 
-#: widgets/poets-widgets-crispin.php:82
+#: widgets/poets-widgets-crispin.php:84
 msgid "Your Nostalgia Poems"
 msgstr ""
 
-#: widgets/poets-widgets-crispin.php:83
+#: widgets/poets-widgets-crispin.php:85
 msgid "Your Euros Poems"
 msgstr ""
 
-#: widgets/poets-widgets-crispin.php:84
+#: widgets/poets-widgets-crispin.php:86
 msgid "Your World Cup Poems"
 msgstr ""
 
-#: widgets/poets-widgets-crispin.php:85
+#: widgets/poets-widgets-crispin.php:87
 msgid "Your World Cup Haiku"
 msgstr ""
 
-#: widgets/poets-widgets-crispin.php:86
+#: widgets/poets-widgets-crispin.php:88
 msgid "Crispin’s Poems &amp; Profile"
 msgstr ""
 
-#: widgets/poets-widgets-crispin.php:115
+#: widgets/poets-widgets-crispin.php:118
 msgid "Crispin's Corner"
 msgstr ""
 
@@ -115,19 +115,19 @@ msgid "Use this widget to show the \"In Memoriam\" widget."
 msgstr ""
 
 #: widgets/poets-widgets-in-memoriam.php:34
-#: widgets/poets-widgets-in-memoriam.php:95
+#: widgets/poets-widgets-in-memoriam.php:98
 msgid "In Memoriam"
 msgstr ""
 
-#: widgets/poets-widgets-in-memoriam.php:67
+#: widgets/poets-widgets-in-memoriam.php:69
 msgid "Your Hillsborough Poems"
 msgstr ""
 
-#: widgets/poets-widgets-in-memoriam.php:68
+#: widgets/poets-widgets-in-memoriam.php:70
 msgid "Your Munich Poems"
 msgstr ""
 
-#: widgets/poets-widgets-in-memoriam.php:69
+#: widgets/poets-widgets-in-memoriam.php:71
 msgid "Your RIP Poems"
 msgstr ""
 
@@ -139,18 +139,18 @@ msgstr ""
 msgid "Kick It Out/Christmas Truce"
 msgstr ""
 
-#: widgets/poets-widgets-kick-it.php:67
+#: widgets/poets-widgets-kick-it.php:69
 msgid "Your Kick It Out Poems"
 msgstr ""
 
-#: widgets/poets-widgets-kick-it.php:68
+#: widgets/poets-widgets-kick-it.php:70
 msgid "Your Christmas Truce Poems"
 msgstr ""
 
-#: widgets/poets-widgets-kick-it.php:69
+#: widgets/poets-widgets-kick-it.php:71
 msgid "Your Football At Christmas Poems"
 msgstr ""
 
-#: widgets/poets-widgets-kick-it.php:95
+#: widgets/poets-widgets-kick-it.php:98
 msgid "Kick It Out"
 msgstr ""
