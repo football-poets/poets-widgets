@@ -66,11 +66,13 @@ class Clik_Here_Widget extends WP_Widget {
 			$title = apply_filters( 'widget_title', $instance['title'] );
 
 			// Show before.
+			// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			echo $args['before_widget'];
 
 			// If we have a title, show it.
 			if ( ! empty( $title ) ) {
 				$args['after_title'] = str_replace( 'paragraph_wrapper', 'paragraph_wrapper start_open', $args['after_title'] );
+				// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 				echo $args['before_title'] . $title . $args['after_title'];
 			}
 
@@ -79,14 +81,15 @@ class Clik_Here_Widget extends WP_Widget {
 				<div class="user-avatar"><?php echo get_avatar( $user->ID, $size = '100' ); ?></div>
 				<div class="user-links">
 					<ul>
-						<li class="poems-link"><a href="<?php echo get_permalink( 101 ); ?>"><?php echo __( 'Poems &amp; Profile', 'poets-widgets' ); ?></a></li>
-						<li class="news-link"><a href="<?php echo esc_url( get_category_link( 22 ) ); ?>"><?php echo __( 'Blog Posts', 'poets-widgets' ); ?></a></li>
+						<li class="poems-link"><a href="<?php echo esc_url( get_permalink( 101 ) ); ?>"><?php esc_html_e( 'Poems &amp; Profile', 'poets-widgets' ); ?></a></li>
+						<li class="news-link"><a href="<?php echo esc_url( get_category_link( 22 ) ); ?>"><?php esc_html_e( 'Blog Posts', 'poets-widgets' ); ?></a></li>
 					</ul>
 				</div>
 			</div>
 			<?php
 
 			// Show after.
+			// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			echo $args['after_widget'];
 
 			// End sanity check.
@@ -115,8 +118,8 @@ class Clik_Here_Widget extends WP_Widget {
 		?>
 
 		<p>
-		<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php esc_html_e( 'Title:', 'poets-widgets' ); ?></label>
-		<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
+		<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_html_e( 'Title:', 'poets-widgets' ); ?></label>
+		<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
 		</p>
 
 		<?php

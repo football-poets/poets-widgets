@@ -51,28 +51,31 @@ class Kick_It_Out_Widget extends WP_Widget {
 		$title = apply_filters( 'widget_title', $instance['title'] );
 
 		// Show before.
+		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		echo $args['before_widget'];
 
 		// If we have a title, show it.
 		if ( ! empty( $title ) ) {
 			$args['after_title'] = str_replace( 'paragraph_wrapper', 'paragraph_wrapper start_open', $args['after_title'] );
+			// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			echo $args['before_title'] . $title . $args['after_title'];
 		}
 
 		?>
 		<div class="widget-inner clearfix">
-			<div class="user-avatar"><img alt="" src="<?php echo POETS_WIDGETS_URL . 'assets/images/kio-truce.jpg'; ?>" class="avatar avatar-100 photo" height="100" width="100"></div>
+			<div class="user-avatar"><img alt="" src="<?php echo esc_url( POETS_WIDGETS_URL . 'assets/images/kio-truce.jpg' ); ?>" class="avatar avatar-100 photo" height="100" width="100"></div>
 			<div class="user-links">
 				<ul>
-					<li class="poems-link"><a href="<?php echo get_permalink( 22977 ); ?>"><?php echo __( 'Your Kick It Out Poems', 'poets-widgets' ); ?></a></li>
-					<li class="poems-link"><a href="<?php echo get_permalink( 22979 ); ?>"><?php echo __( 'Your Christmas Truce Poems', 'poets-widgets' ); ?></a></li>
-					<li class="poems-link"><a href="<?php echo get_permalink( 22981 ); ?>"><?php echo __( 'Your Football At Christmas Poems', 'poets-widgets' ); ?></a></li>
+					<li class="poems-link"><a href="<?php echo esc_url( get_permalink( 22977 ) ); ?>"><?php esc_html_e( 'Your Kick It Out Poems', 'poets-widgets' ); ?></a></li>
+					<li class="poems-link"><a href="<?php echo esc_url( get_permalink( 22979 ) ); ?>"><?php esc_html_e( 'Your Christmas Truce Poems', 'poets-widgets' ); ?></a></li>
+					<li class="poems-link"><a href="<?php echo esc_url( get_permalink( 22981 ) ); ?>"><?php esc_html_e( 'Your Football At Christmas Poems', 'poets-widgets' ); ?></a></li>
 				</ul>
 			</div>
 		</div>
 		<?php
 
 		// Show after.
+		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		echo $args['after_widget'];
 
 	}
@@ -98,8 +101,8 @@ class Kick_It_Out_Widget extends WP_Widget {
 		?>
 
 		<p>
-		<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php esc_html_e( 'Title:', 'poets-widgets' ); ?></label>
-		<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
+		<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_html_e( 'Title:', 'poets-widgets' ); ?></label>
+		<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
 		</p>
 
 		<?php

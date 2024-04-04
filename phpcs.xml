@@ -24,9 +24,6 @@
 		<exclude name="Squiz.Commenting.BlockComment.HasEmptyLineBefore" />
 		<exclude name="Squiz.PHP.CommentedOutCode.Found" />
 
-		<!-- Outstanding rules to apply. -->
-		<exclude name="WordPress.Security.EscapeOutput.OutputNotEscaped" />
-
 	</rule>
 
 	<rule ref="WordPress.WP.I18n">
