@@ -5,7 +5,7 @@
  * Plugin Name: Football Poets Widgets
  * Description: Provides a set of custom widgets for the Football Poets website.
  * Plugin URI:  https://github.com/football-poets/poets-widgets
- * Version:     0.2.0
+ * Version:     0.2.1a
  * Author:      Christian Wach
  * Author URI:  https://haystack.co.uk
  * Text Domain: poets-widgets
@@ -18,7 +18,7 @@
 defined( 'ABSPATH' ) || exit;
 
 // Set our version here.
-define( 'POETS_WIDGETS_VERSION', '0.2.0' );
+define( 'POETS_WIDGETS_VERSION', '0.2.1a' );
 
 // Store reference to this file.
 if ( ! defined( 'POETS_WIDGETS_FILE' ) ) {
